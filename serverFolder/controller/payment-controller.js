@@ -52,7 +52,7 @@ export const paytmResponse=(request, response)=>{
 
                 post_res.on("end", ()=>{
                     let result=JSON.parse(res);
-                    response.redirect("http://localhost:3000")
+                    response.redirect("https://flipkart-klone.onrender.com/")
                 })
             });
 

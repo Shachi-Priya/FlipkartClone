@@ -50,7 +50,7 @@ const Cart=()=>{
 
     const buyNow=async()=>{
         await alert("Order Placed Successfully");
-        window.location.reload();
+        window.location.href = 'https://flipkart-klone.netlify.app';
         // let response=await payUsingPaytm({amount:500, email:"shachi4621@gmail.com"});
         // let information={
         //     action:"https://securegw-stage.paytm.in/order/process",
